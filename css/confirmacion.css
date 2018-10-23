@@ -1,0 +1,15 @@
+div.info{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+h1{
+    padding-left: 50px;
+}
+
+h2{
+    padding-left: 220px;
+}

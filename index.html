@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Hunger Games</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css\main.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="css\tcal.css" />
+		<script type="text/javascript" src="js\main.js"></script> 
+		<script type="text/javascript" src="js\tcal.js"></script>
+	</head>
+	<body onload="navegador()">
+		<img src="img\icons\logo.png" alt="logo">
+		<form name="hunger" class="contact100-form validate-form">
+			<p>
+				Rellena los campos para gestionar tu póliza
+			</p>
+
+			<div class="input" data-validate="Nombre">
+				Nombre
+				<input type="text" name="nombre" placeholder="Nombre">				
+			</div>
+			<o>*Campo Obligatorio</o>
+
+			<div class="input" data-validate="Apellidos">
+				Apellidos
+				<input type="text" name="apellidos" placeholder="Apellidos">
+			</div>
+			<o>*Campo Obligatorio</o>
+
+			<div class="input" data-validate="Documento de identidad">
+				Documento de indetidad
+				<input type="text" name="docInden" placeholder="Documento de indetidad">
+				<a href="cargando.html" target="_blank">
+					<img class="info" src="img\icons\infor.png" alt="info">
+				</a>
+			</div>
+
+			<div class="input" data-validate="Dirección">
+				Dirección
+				<input type="text" name="direccion" placeholder="Dirección">
+			</div>
+
+			<div class="input" data-validate="Ciudad">
+				Ciudad
+				<input type="text" name="ciudad" placeholder="Ciudad">
+			</div>
+
+			<div class="input" data-validate="Código Postal">
+				Código Postal
+				<input type="text" name="cp" placeholder="Código Postal">
+				<a href="cargando.html" target="_blank">
+					<img class="info" src="img\icons\infor.png" alt="info">
+				</a>
+			</div>
+
+			<div class="input" data-validate="Fecha de nacimiento">
+				Fecha de nacimiento
+				<input type="data" name="fechaNac" class="tcal" value="" /></div>
+			</div>
+
+			<div class="input" data-validate="Matrícula">
+				Matrícula
+				<input type="text" name="matricula" placeholder="Matrícula">
+				<a href="cargando.html" target="_blank">
+					<img class="info" src="img\icons\infor.png" alt="info">
+				</a>
+			</div>
+
+			<div class="input" data-validate="Fecha de entrada en vigor">
+				Fecha de entrada en vigor
+				<input type="data" name="Fecha de entrada en vigor" class="tcal" value="" /></div>
+			</div>
+
+			<div class="input" data-validate="CC">
+				CC
+				<input class="CC1" type="text" name="cc1" placeholder="CC">
+				<input class="CC2" type="text" name="cc2" placeholder="CC">
+				<input class="CC3" type="text" name="cc3" placeholder="CC">
+				<input class="CC4" type="text" name="cc4" placeholder="CC">
+			</div>
+
+			<div class="recaptcha">
+				<div class="checkboxCaptcha" data-validate="Captcha">				
+					<input class="checkbox" type="checkbox">					
+				</div>
+				<div class="imgCaptcha">
+					<img class="captcha" src="img\icons\captcha.png" alt="captcha">
+				</div>
+			</div>			
+
+			<div class="container-contact100-form-btn">
+				<button type="button" class="contact100-form-btn" onclick="confirmacion()">
+					<span>
+						<i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
+						CONTRATAR
+					</span>
+				</button>
+			</div>
+		</form>
+	</body>
+</html>

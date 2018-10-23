@@ -1,0 +1,73 @@
+body{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+
+div{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+div.recaptcha{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.imgCaptcha{
+    display: inline-block;
+}
+
+div.checkboxCaptcha{    
+    display: inline-block;
+}
+
+input{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 900px;
+    /*border-radius: 10px;*/
+}
+
+input.CC1{
+    width: 35px;
+}
+
+input.CC2{
+    width: 65px;
+}
+
+input.CC3{
+    width: 15px;
+}
+
+input.CC4{
+    width: 95px;
+}
+
+input.checkbox{
+    width: auto;
+}
+
+input.tcal{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+o{
+   font-size: 75%;
+   color: red;
+   padding-left: 50px;
+}
+
+img.info{
+    width: 15px;
+    height: 15px;
+}
+
+button{
+    border-radius: 10px;
+}
